@@ -35,8 +35,8 @@ setup(
     ],
     extras_require={
         'pt': ['torch', 'transformers==2.2.1'],
-        'tf': ['tensorflow==1.15', 'sentencepiece'],
-        'all': ['torch', 'tensorflow==1.15', 'transformers==2.2.1'],
+        'tf': ['tensorflow==1.15.2', 'sentencepiece'],
+        'all': ['torch', 'tensorflow==1.15.2', 'transformers==2.2.1'],
     },
     entry_points={'console_scripts': [
         'nboost=nboost.__main__:main',
