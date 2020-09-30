@@ -25,7 +25,7 @@ In this example we will set up a proxy to sit in between the client and Elastics
     NBoost has a handy indexing tool built in (`nboost-index`). For demonstration purposes,  will be indexing [a set of passages about traveling and hotels](https://microsoft.github.io/TREC-2019-Deep-Learning/). You can add the index to your Elasticsearch server by running:
     >  `travel.csv` comes with NBoost
     ```bash
-    nboost-index --file travel.csv --name travel --delim ,
+    nboost-index --file travel.csv --index_name travel --delim ,
     ```` 
 
 #### Deploying the proxy
